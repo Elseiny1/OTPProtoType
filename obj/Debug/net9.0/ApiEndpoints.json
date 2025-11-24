@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "OTPNumberPrototype.Controllers.ValidatePhoneNumber",
+    "Method": "AddPhoneNumber",
+    "RelativePath": "api/ValidatePhoneNumber/Add Phone",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "phone",
+        "Type": "OTPNumberPrototype.ViewModels.PhoneNumber",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OTPNumberPrototype.Controllers.ValidatePhoneNumber",
+    "Method": "GetUserStatus",
+    "RelativePath": "api/ValidatePhoneNumber/Get User Data",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OTPNumberPrototype.Controllers.ValidatePhoneNumber",
+    "Method": "ValidateOTP",
+    "RelativePath": "api/ValidatePhoneNumber/Verify OTP",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "OTPNumberPrototype.ViewModels.VerifyOTPRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
